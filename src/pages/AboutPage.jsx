@@ -1,0 +1,9 @@
+import { ArrowRight } from "@phosphor-icons/react";
+import { Link } from "react-router-dom";
+import { Breadcrumb } from "../components/Breadcrumb.jsx";
+import { assetUrl, useDocumentMeta } from "../lib/format.js";
+
+export function AboutPage() {
+  useDocumentMeta("About MODEX", "MODEX is a curated pre-owned luxury retailer based in Sharjah, United Arab Emirates.");
+  return <main className="editorial-page about-page"><div className="page-shell"><Breadcrumb items={[{ label: "About MODEX" }]} /></div><section className="about-hero"><div><p className="eyebrow gold">OUR POINT OF VIEW</p><h1>LUXURY,<br />CONSIDERED<br />AGAIN.</h1></div><img src={assetUrl("hero.webp")} alt="MODEX curated luxury still life" /></section><section className="about-intro page-shell"><p className="eyebrow">MODEX</p><div><h2>A curated pre-owned luxury marketplace.</h2><p>We select pieces for their design, condition and enduring relevance. Each item is independently inspected before it enters the collection.</p></div></section><section className="about-pillars page-shell">{[["01", "Curated Selection", "A focused edit across bags, watches, shoes and accessories."], ["02", "Independent Authentication", "A documented review grounded in material and construction."], ["03", "Circular Fashion", "A considered second life for pieces designed to endure."], ["04", "Global Perspective", "Based in Sharjah and serving collectors worldwide."]].map(([number, title, copy]) => <article key={number}><span>{number}</span><h3>{title}</h3><p>{copy}</p></article>)}</section><section className="company-note"><p className="eyebrow gold">MODEx FASHION TRADING FZE</p><h2>Sharjah, United Arab Emirates.</h2><p>Licensed for online retail and e-commerce in Sharjah Publishing City Free Zone.</p><Link className="link-arrow" to="/shop">Explore the collection <ArrowRight size={17} /></Link></section></main>;
+}
