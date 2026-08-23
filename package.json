@@ -6,8 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && node scripts/prepare-sites-build.mjs",
+    "build:vercel": "vite build",
     "preview": "vite preview",
     "test:sites": "node --test tests/sites-worker.test.mjs"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true
   },
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.3.0",
