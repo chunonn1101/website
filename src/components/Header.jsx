@@ -21,7 +21,7 @@ export function Header() {
 
   return (
     <>
-      <div className="announcement"><span>COMPLIMENTARY GLOBAL SHIPPING ON ORDERS OVER AED 2,000</span><span className="announcement-currency">UAE (AED)⌄</span></div>
+      <div className="announcement"><span>AUTHENTICATED SECOND-HAND LUXURY TRADING PLATFORM</span><span className="announcement-currency">UAE (AED)⌄</span></div>
       <header className="site-header">
         <button className="icon-button mobile-only" onClick={() => setMobileOpen(true)} aria-label="Open menu"><List size={24} /></button>
         <Brand light />

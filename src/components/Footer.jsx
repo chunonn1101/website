@@ -15,10 +15,10 @@ export function Footer() {
     <>
       <Newsletter />
       <footer className="site-footer">
-        <div className="footer-top"><div className="footer-brand"><Brand light /><p>Curated pre-owned luxury.<br />Sharjah, United Arab Emirates.</p><div className="socials"><a href="#instagram" aria-label="Instagram"><InstagramLogo size={20} /></a><a href="#tiktok" aria-label="TikTok"><TiktokLogo size={20} /></a><a href="#facebook" aria-label="Facebook"><FacebookLogo size={20} /></a><a href="#pinterest" aria-label="Pinterest"><PinterestLogo size={20} /></a></div></div>
+        <div className="footer-top"><div className="footer-brand"><Brand light /><p>Second-hand luxury trading platform.<br />Sharjah, United Arab Emirates.</p><div className="socials"><a href="#instagram" aria-label="Instagram"><InstagramLogo size={20} /></a><a href="#tiktok" aria-label="TikTok"><TiktokLogo size={20} /></a><a href="#facebook" aria-label="Facebook"><FacebookLogo size={20} /></a><a href="#pinterest" aria-label="Pinterest"><PinterestLogo size={20} /></a></div></div>
           {groups.map(([title, links]) => <div className="footer-group" key={title}><p>{title}</p>{links.map(([label, to]) => <Link key={label} to={to}>{label}</Link>)}</div>)}
         </div>
-        <div className="footer-bottom"><span>© 2026 MODEX</span><p>All trademarks and brand names belong to their respective owners. MODEX is an independent pre-owned luxury retailer and is not affiliated with the brands displayed unless expressly stated.</p><span>UAE · AED</span></div>
+        <div className="footer-bottom"><span>© 2026 MODEX</span><p>MODEX is an independent second-hand luxury trading platform. All trademarks and abbreviated brand references belong to their respective owners; MODEX is not affiliated with them unless expressly stated.</p><span>UAE · AED</span></div>
       </footer>
     </>
   );

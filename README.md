@@ -1,6 +1,6 @@
 # MODEX
 
-Responsive pre-owned luxury marketplace built with React and Vite.
+Responsive second-hand luxury trading platform built with React and Vite.
 
 ## Local development
 
@@ -21,4 +21,4 @@ The included `.github/workflows/deploy-pages.yml` builds and publishes the websi
 
 After the first upload, open the repository's **Settings → Pages** and set **Source** to **GitHub Actions**. The workflow automatically detects the repository name and configures the correct project-site path.
 
-MODEX is an independent pre-owned luxury retailer. Brand names and trademarks belong to their respective owners.
+MODEX is an independent second-hand luxury trading platform. Abbreviated brand references and trademarks belong to their respective owners.

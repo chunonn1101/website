@@ -7,12 +7,12 @@ export function slugify(value) {
 
 export function useDocumentMeta(title, description) {
   if (typeof document === "undefined") return;
-  document.title = title ? `${title} | MODEX` : "MODEX | Authenticated Pre-Owned Luxury";
+  document.title = title ? `${title} | MODEX` : "MODEX | Second-Hand Luxury Trading Platform";
   let tag = document.querySelector('meta[name="description"]');
   if (!tag) {
     tag = document.createElement("meta");
     tag.name = "description";
     document.head.appendChild(tag);
   }
-  tag.content = description || "Curated and authenticated pre-owned luxury from MODEX.";
+  tag.content = description || "Buy and sell curated, authenticated second-hand luxury on MODEX.";
 }

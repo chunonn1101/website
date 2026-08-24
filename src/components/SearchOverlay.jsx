@@ -25,8 +25,8 @@ export function SearchOverlay() {
       </div>
       {!q ? (
         <div className="search-suggestions">
-          <div><p className="eyebrow">Recent Searches</p><button onClick={() => setQuery("Chanel")}>Chanel</button><button onClick={() => setQuery("Watches")}>Watches</button></div>
-          <div><p className="eyebrow">Trending</p><button onClick={() => setQuery("New arrivals")}>New arrivals</button><button onClick={() => setQuery("Bottega Veneta")}>Bottega Veneta</button></div>
+          <div><p className="eyebrow">Recent Searches</p><button onClick={() => setQuery("Chan")}>Chan</button><button onClick={() => setQuery("Watches")}>Watches</button></div>
+          <div><p className="eyebrow">Trending</p><button onClick={() => setQuery("New arrivals")}>New arrivals</button><button onClick={() => setQuery("Bottega V")}>Bottega V</button></div>
         </div>
       ) : (
         <div className="search-results">

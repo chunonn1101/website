@@ -3,13 +3,13 @@ import { assetUrl } from "../lib/format.js";
 const img = (name) => assetUrl(`${name}.webp`);
 
 export const designers = [
-  "Chanel", "Louis Vuitton", "Hermès", "Gucci", "Prada", "Dior",
-  "Saint Laurent", "Bottega Veneta", "Celine", "Fendi", "Rolex", "Cartier",
+  "Chan", "Louis V", "Herm", "Gucc", "Prad", "Dio",
+  "Saint L", "Bottega V", "Celi", "Fend", "Role", "Cart",
 ];
 
 export const products = [
   {
-    id: "p01", slug: "chanel-classic-double-flap-medium-black", brand: "Chanel",
+    id: "p01", slug: "chan-classic-double-flap-medium-black", brand: "Chan",
     name: "Classic Double Flap Medium", category: "bags", gender: "women", price: 17800,
     condition: "Excellent", colour: "Black", material: "Quilted lambskin", year: 2021,
     description: "An enduring shoulder bag silhouette selected for its balanced proportions and beautifully preserved finish.",
@@ -17,7 +17,7 @@ export const products = [
     images: [img("black-quilted-bag"), img("taupe-top-handle")], featured: true, newArrival: true, verified: true,
   },
   {
-    id: "p02", slug: "louis-vuitton-neverfull-mm-damier", brand: "Louis Vuitton",
+    id: "p02", slug: "louis-v-neverfull-mm-damier", brand: "Louis V",
     name: "Neverfull MM", category: "bags", gender: "women", price: 6450,
     condition: "Very Good", colour: "Ebene", material: "Coated canvas", year: 2020,
     description: "A generous everyday tote with a clean interior and gently softened leather trim.",
@@ -25,7 +25,7 @@ export const products = [
     featured: false, newArrival: true, verified: true,
   },
   {
-    id: "p03", slug: "hermes-birkin-30-etoupe", brand: "Hermès",
+    id: "p03", slug: "herm-birkin-30-etoupe", brand: "Herm",
     name: "Birkin 30", category: "bags", gender: "women", price: 62000,
     condition: "Pristine", colour: "Etoupe", material: "Togo leather", year: 2022,
     description: "A highly considered top-handle piece with crisp structure and exceptionally clean hardware.",
@@ -33,7 +33,7 @@ export const products = [
     images: [img("taupe-top-handle"), img("oxblood-woven-bag")], featured: true, newArrival: true, verified: true,
   },
   {
-    id: "p04", slug: "gucci-jackie-1961-burgundy", brand: "Gucci",
+    id: "p04", slug: "gucc-jackie-1961-burgundy", brand: "Gucc",
     name: "Jackie 1961", category: "bags", gender: "women", price: 8200,
     condition: "Excellent", colour: "Burgundy", material: "Calfskin", year: 2023,
     description: "A fluid shoulder shape in a deep oxblood tone, curated for its elegant day-to-evening profile.",
@@ -41,7 +41,7 @@ export const products = [
     featured: false, newArrival: true, verified: true,
   },
   {
-    id: "p05", slug: "prada-re-edition-2005-black", brand: "Prada",
+    id: "p05", slug: "prad-re-edition-2005-black", brand: "Prad",
     name: "Re-Edition 2005", category: "bags", gender: "women", price: 6150,
     condition: "Excellent", colour: "Black", material: "Leather", year: 2022,
     description: "A compact shoulder style with a light profile and immaculate tonal finish.",
@@ -49,15 +49,15 @@ export const products = [
     featured: false, newArrival: true, verified: true,
   },
   {
-    id: "p06", slug: "dior-lady-dior-medium-stone", brand: "Dior",
-    name: "Lady Dior Medium", category: "bags", gender: "women", price: 19400,
+    id: "p06", slug: "dio-lady-d-medium-stone", brand: "Dio",
+    name: "Lady D Medium", category: "bags", gender: "women", price: 19400,
     condition: "Very Good", colour: "Stone", material: "Grained leather", year: 2019,
     description: "A structured house classic with subtle signs of careful use and an exceptionally clean interior.",
     includedItems: ["Dust bag", "Shoulder strap"], images: [img("taupe-top-handle"), img("black-quilted-bag")],
     featured: false, newArrival: false, verified: true,
   },
   {
-    id: "p07", slug: "saint-laurent-loulou-medium-black", brand: "Saint Laurent",
+    id: "p07", slug: "saint-l-loulou-medium-black", brand: "Saint L",
     name: "LouLou Medium", category: "bags", gender: "women", price: 7900,
     condition: "Excellent", colour: "Black", material: "Quilted leather", year: 2021,
     description: "A softly structured black shoulder bag with a polished chain and refined tonal finish.",
@@ -65,7 +65,7 @@ export const products = [
     featured: true, newArrival: false, verified: true,
   },
   {
-    id: "p08", slug: "bottega-veneta-jodie-mini-oxblood", brand: "Bottega Veneta",
+    id: "p08", slug: "bottega-v-jodie-mini-oxblood", brand: "Bottega V",
     name: "Jodie Mini", category: "bags", gender: "women", price: 7950,
     condition: "Excellent", colour: "Oxblood", material: "Intrecciato leather", year: 2023,
     description: "A sculptural mini hobo selected for its saturated oxblood colour and supple woven finish.",
@@ -73,7 +73,7 @@ export const products = [
     featured: true, newArrival: true, verified: true,
   },
   {
-    id: "p09", slug: "celine-triomphe-bag-tan", brand: "Celine",
+    id: "p09", slug: "celi-triomphe-bag-tan", brand: "Celi",
     name: "Triomphe Bag", category: "bags", gender: "women", price: 12300,
     condition: "Very Good", colour: "Tan", material: "Calfskin", year: 2020,
     description: "A precise, compact day bag with a warm neutral finish and lightly softened corners.",
@@ -81,7 +81,7 @@ export const products = [
     featured: false, newArrival: false, verified: true,
   },
   {
-    id: "p10", slug: "fendi-baguette-black", brand: "Fendi",
+    id: "p10", slug: "fend-baguette-black", brand: "Fend",
     name: "Baguette", category: "bags", gender: "women", price: 8900,
     condition: "Good", colour: "Black", material: "Leather", year: 2017,
     description: "A compact shoulder bag with visible but even wear that adds understated character.",
@@ -89,7 +89,7 @@ export const products = [
     featured: false, newArrival: false, verified: true,
   },
   {
-    id: "p11", slug: "rolex-datejust-36-silver", brand: "Rolex",
+    id: "p11", slug: "role-datejust-36-silver", brand: "Role",
     name: "Datejust 36", category: "watches", gender: "men", price: 31500,
     condition: "Very Good", colour: "Silver", material: "Stainless steel", year: 2018,
     description: "A balanced 36 mm daily watch with a clean silver dial and professionally inspected bracelet.",
@@ -97,7 +97,7 @@ export const products = [
     featured: true, newArrival: true, verified: true,
   },
   {
-    id: "p12", slug: "cartier-tank-must-large", brand: "Cartier",
+    id: "p12", slug: "cart-tank-must-large", brand: "Cart",
     name: "Tank Must Large", category: "watches", gender: "women", price: 12800,
     condition: "Excellent", colour: "Silver", material: "Stainless steel", year: 2022,
     description: "A refined dress watch with a quietly architectural profile and fresh leather strap.",
@@ -105,7 +105,7 @@ export const products = [
     featured: false, newArrival: true, verified: true,
   },
   {
-    id: "p13", slug: "chanel-slingback-pumps-black", brand: "Chanel",
+    id: "p13", slug: "chan-slingback-pumps-black", brand: "Chan",
     name: "Slingback Pumps", category: "shoes", gender: "women", price: 3450,
     condition: "Excellent", colour: "Black", material: "Satin", year: 2023,
     description: "Elegant pointed slingbacks with minimal sole wear and beautifully maintained satin.",
@@ -113,7 +113,7 @@ export const products = [
     featured: false, newArrival: true, verified: true,
   },
   {
-    id: "p14", slug: "saint-laurent-opyum-sandals-black", brand: "Saint Laurent",
+    id: "p14", slug: "saint-l-opyum-sandals-black", brand: "Saint L",
     name: "Opyum Sandals", category: "shoes", gender: "women", price: 3650,
     condition: "Very Good", colour: "Black", material: "Satin", year: 2021,
     description: "A precise evening silhouette with light wear to the sole and pristine uppers.",
@@ -121,7 +121,7 @@ export const products = [
     featured: false, newArrival: false, verified: true,
   },
   {
-    id: "p15", slug: "gucci-horsebit-loafers-black", brand: "Gucci",
+    id: "p15", slug: "gucc-horsebit-loafers-black", brand: "Gucc",
     name: "Horsebit Loafers", category: "shoes", gender: "men", price: 2850,
     condition: "Very Good", colour: "Black", material: "Leather", year: 2020,
     description: "A polished leather loafer with even creasing and carefully maintained soles.",
@@ -129,7 +129,7 @@ export const products = [
     featured: false, newArrival: false, verified: true,
   },
   {
-    id: "p16", slug: "prada-monolith-boots-black", brand: "Prada",
+    id: "p16", slug: "prad-monolith-boots-black", brand: "Prad",
     name: "Monolith Boots", category: "shoes", gender: "women", price: 3980,
     condition: "Good", colour: "Black", material: "Brushed leather", year: 2020,
     description: "A confident platform boot with expected creasing and fully functional hardware.",
@@ -137,7 +137,7 @@ export const products = [
     featured: false, newArrival: false, verified: true,
   },
   {
-    id: "p17", slug: "cartier-love-cuff-gold", brand: "Cartier",
+    id: "p17", slug: "cart-love-cuff-gold", brand: "Cart",
     name: "Love Cuff", category: "accessories", gender: "women", price: 24600,
     condition: "Excellent", colour: "Gold", material: "18k yellow gold", year: 2021,
     description: "A sculptural fine-jewellery cuff with a professionally polished, softly lustrous finish.",
@@ -145,7 +145,7 @@ export const products = [
     featured: true, newArrival: true, verified: true,
   },
   {
-    id: "p18", slug: "hermes-clic-h-bracelet-black", brand: "Hermès",
+    id: "p18", slug: "herm-clic-h-bracelet-black", brand: "Herm",
     name: "Clic H Bracelet", category: "accessories", gender: "women", price: 2850,
     condition: "Very Good", colour: "Black / Gold", material: "Enamel and metal", year: 2020,
     description: "A slim black-and-gold bracelet with minor surface signs visible only at close inspection.",
@@ -153,7 +153,7 @@ export const products = [
     featured: false, newArrival: false, verified: true,
   },
   {
-    id: "p19", slug: "dior-silk-scarf-ivory", brand: "Dior",
+    id: "p19", slug: "dio-silk-scarf-ivory", brand: "Dio",
     name: "Silk Scarf 90", category: "accessories", gender: "women", price: 2200,
     condition: "Pristine", colour: "Ivory", material: "Silk twill", year: 2024,
     description: "A pristine silk accessory with saturated colour and crisp hand-rolled edges.",
@@ -161,7 +161,7 @@ export const products = [
     featured: false, newArrival: true, verified: true,
   },
   {
-    id: "p20", slug: "louis-vuitton-pocket-organizer-black", brand: "Louis Vuitton",
+    id: "p20", slug: "louis-v-pocket-organizer-black", brand: "Louis V",
     name: "Pocket Organizer", category: "accessories", gender: "men", price: 1850,
     condition: "Excellent", colour: "Black", material: "Leather", year: 2022,
     description: "A slim card case with a clean interior and barely visible corner wear.",
@@ -169,7 +169,7 @@ export const products = [
     featured: false, newArrival: true, verified: true,
   },
   {
-    id: "p21", slug: "bottega-veneta-cassette-wallet-oxblood", brand: "Bottega Veneta",
+    id: "p21", slug: "bottega-v-cassette-wallet-oxblood", brand: "Bottega V",
     name: "Cassette Wallet", category: "accessories", gender: "men", price: 2100,
     condition: "Excellent", colour: "Oxblood", material: "Woven leather", year: 2023,
     description: "A compact woven-leather wallet in a deep seasonal tone with a crisp interior.",
@@ -177,7 +177,7 @@ export const products = [
     featured: false, newArrival: false, verified: true,
   },
   {
-    id: "p22", slug: "balenciaga-hourglass-mini-black", brand: "Balenciaga",
+    id: "p22", slug: "balenc-hourglass-mini-black", brand: "Balenc",
     name: "Hourglass Mini", category: "bags", gender: "women", price: 5200,
     condition: "Very Good", colour: "Black", material: "Calfskin", year: 2021,
     description: "A compact curved top-handle bag with gentle base wear and a clean interior.",
@@ -185,7 +185,7 @@ export const products = [
     featured: false, newArrival: false, verified: true,
   },
   {
-    id: "p23", slug: "burberry-vintage-check-weekender", brand: "Burberry",
+    id: "p23", slug: "burber-vintage-check-weekender", brand: "Burber",
     name: "Vintage Check Weekender", category: "bags", gender: "men", price: 4700,
     condition: "Good", colour: "Taupe", material: "Canvas and leather", year: 2016,
     description: "A spacious travel piece with an honest patina, strong handles and a clean lined interior.",
@@ -193,7 +193,7 @@ export const products = [
     featured: false, newArrival: false, verified: true,
   },
   {
-    id: "p24", slug: "celine-triomphe-sunglasses-black", brand: "Celine",
+    id: "p24", slug: "celi-triomphe-sunglasses-black", brand: "Celi",
     name: "Triomphe Sunglasses", category: "accessories", gender: "women", price: 1650,
     condition: "Excellent", colour: "Black", material: "Acetate", year: 2023,
     description: "Sculptural black acetate sunglasses with clear lenses and exceptionally clean temples.",

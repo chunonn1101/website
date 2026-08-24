@@ -6,12 +6,12 @@ import { designers, products } from "../data/products.js";
 import { assetUrl, slugify, useDocumentMeta } from "../lib/format.js";
 
 export function HomePage() {
-  useDocumentMeta("Authenticated Pre-Owned Luxury", "Curated pre-owned luxury bags, watches, shoes and accessories, authenticated by MODEX.");
+  useDocumentMeta("Second-Hand Luxury Trading Platform", "Buy and sell authenticated second-hand luxury bags, watches, shoes and accessories on MODEX.");
   return (
     <>
       <section className="hero">
         <img className="hero-image" src={assetUrl("hero.webp")} alt="Oxblood leather bag and silver watch on travertine" />
-        <div className="hero-copy"><h1><span>PRE-OWNED.</span><br />REDEFINED.</h1><p>Curated luxury pieces.<br />Authenticated. Timeless. Yours again.</p><div className="hero-actions"><Link className="button button-light" to="/shop?sort=newest">SHOP NEW ARRIVALS</Link><Link className="button button-outline-light" to="/shop#designers">EXPLORE DESIGNERS</Link></div></div>
+        <div className="hero-copy"><p className="eyebrow hero-platform-label">SECOND-HAND LUXURY TRADING PLATFORM</p><h1><span>PRE-OWNED.</span><br />REDEFINED.</h1><p>Buy and sell curated second-hand luxury.<br />Authenticated. Timeless. Yours again.</p><div className="hero-actions"><Link className="button button-light" to="/shop?sort=newest">SHOP NEW ARRIVALS</Link><Link className="button button-outline-light" to="/sell">SELL YOUR ITEM</Link></div></div>
       </section>
 
       <section className="designer-strip" id="designers"><div className="designer-label"><span>SHOP BY</span><span>DESIGNER</span></div><div className="designer-links">{designers.slice(0, 9).map((designer) => <Link key={designer} to={`/designer/${slugify(designer)}`}>{designer}</Link>)}</div></section>

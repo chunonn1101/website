@@ -18,7 +18,7 @@ export function ShopPage({ mode = "shop" }) {
   const routeValue = params.category || params.designer;
   const designerName = mode === "designer" ? designers.find((designer) => slugify(designer) === routeValue) : null;
   const title = designerName || (routeValue ? routeValue.replace(/-/g, " ") : "Shop all");
-  useDocumentMeta(`${title.replace(/\b\w/g, (c) => c.toUpperCase())} — Pre-Owned Luxury`, `Shop authenticated pre-owned ${title} at MODEX.`);
+  useDocumentMeta(`${title.replace(/\b\w/g, (c) => c.toUpperCase())} — Second-Hand Luxury`, `Shop authenticated second-hand ${title} on the MODEX trading platform.`);
 
   const visible = useMemo(() => {
     let result = [...products];
