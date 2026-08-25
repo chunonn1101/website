@@ -395,6 +395,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .address-card { max-width: 420px; margin-bottom: 24px; padding: 28px; border: 1px solid var(--line); background: var(--paper); }
 .address-card h3 { font-family: var(--display); font-size: 25px; }
 .address-card p:not(.eyebrow) { color: var(--muted); font-size: 12px; line-height: 1.7; }
+.address-card .license-number { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--ink); font-weight: 600; letter-spacing: .04em; }
 
 /* About and text pages */
 .about-hero { min-height: 730px; display: grid; grid-template-columns: .7fr 1.3fr; background: var(--ink); color: var(--paper); }
@@ -431,6 +432,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .site-footer { padding: 70px max(32px, calc((100vw - 1360px)/2)) 24px; background: var(--ink); color: var(--paper); }
 .footer-top { display: grid; grid-template-columns: 1.25fr repeat(4, 1fr); gap: 45px; }
 .footer-brand p { margin-top: 26px; color: #aaa; font-size: 11px; line-height: 1.8; }
+.footer-company-details { margin: 18px 0 22px; display: grid; gap: 8px; color: #aaa; font-size: 10px; font-style: normal; line-height: 1.65; }
+.footer-company-details strong { color: var(--paper); font-size: 11px; font-weight: 600; }
+.footer-company-details span:last-child { color: var(--gold); font-size: 9px; letter-spacing: .05em; }
 .socials { margin-top: 28px; display: flex; gap: 16px; }
 .footer-group { display: flex; flex-direction: column; gap: 13px; }
 .footer-group > p { margin-bottom: 9px; color: var(--gold); font-size: 10px; text-transform: uppercase; letter-spacing: .1em; }

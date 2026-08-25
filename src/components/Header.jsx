@@ -8,7 +8,7 @@ import { CartDrawer } from "./CartDrawer.jsx";
 
 const navItems = [
   ["NEW IN", "/shop?sort=newest"], ["WOMEN", "/categories/women"], ["MEN", "/categories/men"],
-  ["BAGS", "/categories/bags"], ["SHOES", "/categories/shoes"], ["WATCHES", "/categories/watches"],
+  ["BAGS", "/categories/bags"], ["CLOTHING", "/categories/clothing"], ["SHOES", "/categories/shoes"], ["WATCHES", "/categories/watches"],
   ["ACCESSORIES", "/categories/accessories"], ["DESIGNERS", "/shop#designers"], ["SELL WITH US", "/sell"],
 ];
 

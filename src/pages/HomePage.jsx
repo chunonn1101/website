@@ -6,7 +6,7 @@ import { designers, products } from "../data/products.js";
 import { assetUrl, slugify, useDocumentMeta } from "../lib/format.js";
 
 export function HomePage() {
-  useDocumentMeta("Second-Hand Luxury Trading Platform", "Buy and sell authenticated second-hand luxury bags, watches, shoes and accessories on MODEX.");
+  useDocumentMeta("Second-Hand Luxury Trading Platform", "Buy and sell authenticated second-hand luxury bags, clothing, watches, shoes and accessories on MODEX.");
   return (
     <>
       <section className="hero">
@@ -17,6 +17,8 @@ export function HomePage() {
       <section className="designer-strip" id="designers"><div className="designer-label"><span>SHOP BY</span><span>DESIGNER</span></div><div className="designer-links">{designers.slice(0, 9).map((designer) => <Link key={designer} to={`/designer/${slugify(designer)}`}>{designer}</Link>)}</div></section>
 
       <section className="section new-arrivals"><div className="section-head"><div><p className="eyebrow gold">JUST LANDED</p><h2>NEW ARRIVALS</h2></div><Link className="link-arrow" to="/shop?sort=newest">View all <ArrowRight size={18} /></Link></div><ProductGrid products={products.filter((product) => product.newArrival).slice(0, 4)} /></section>
+
+      <section className="section clothing-edit"><div className="section-head"><div><p className="eyebrow gold">PRE-OWNED READY-TO-WEAR</p><h2>THE CLOTHING EDIT</h2></div><Link className="link-arrow" to="/categories/clothing">Shop clothing <ArrowRight size={18} /></Link></div><ProductGrid products={products.filter((product) => product.category === "clothing").slice(0, 8)} /></section>
 
       <section className="trust-band">
         <div><ShieldCheck size={26} weight="thin" /><span><strong>MODEX VERIFIED</strong>Every piece independently inspected.</span></div>

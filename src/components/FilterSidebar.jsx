@@ -3,10 +3,10 @@ import { designers } from "../data/products.js";
 
 const sections = [
   ["Brand", designers],
-  ["Category", ["bags", "shoes", "watches", "accessories"]],
+  ["Category", ["bags", "clothing", "shoes", "watches", "accessories"]],
   ["Condition", ["Pristine", "Excellent", "Very Good", "Good"]],
-  ["Colour", ["Black", "Burgundy", "Taupe", "Silver", "Gold"]],
-  ["Material", ["Leather", "Stainless steel", "Satin", "Gold"]],
+  ["Colour", ["Black", "White", "Burgundy", "Oxblood", "Ivory", "Navy", "Camel", "Taupe", "Silver", "Gold"]],
+  ["Material", ["Leather", "Cotton", "Knit", "Wool", "Silk", "Stainless steel", "Satin", "Gold"]],
   ["Availability", ["In stock"]],
 ];
 
